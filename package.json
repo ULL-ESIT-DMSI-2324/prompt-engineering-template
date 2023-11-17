@@ -1,0 +1,20 @@
+{
+  "name": "langchain-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.mjs",
+    "save": "git ci -am 'save'; git push"
+  },
+  "author": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "expr-eval": "^2.0.2",
+    "google-search-results-nodejs": "^2.1.0"
+  }
+}
